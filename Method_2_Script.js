@@ -1,6 +1,6 @@
 let jspdf = document.createElement("script");
 jspdf.onload = function () {
-    let pdfDocumentName = "Document";
+    let pdfDocumentName = document.title;
     let doc;
 
     function generatePDF (){
